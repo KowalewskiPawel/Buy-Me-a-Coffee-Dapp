@@ -5,6 +5,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Head from "next/head";
 
+import abi from "../utils/CoffeePortal.json";
+
 export default function Home() {
   /**
    * Create a variable here that holds the contract address after you deploy!
